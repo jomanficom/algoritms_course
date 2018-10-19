@@ -7,6 +7,7 @@ public class SingleLinkedList<T> {
     private int size = 0;
     private Node<T> first;
 
+
     private static class Node <T> {
         T element;
         Node<T> next;
@@ -122,8 +123,6 @@ public class SingleLinkedList<T> {
 
         return arrayList;
     }
-
-
 
 }
 

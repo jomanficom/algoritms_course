@@ -28,7 +28,8 @@ public class QueueFixedArray {
             return n;
         }
 
-    };
+    }
+
     public int peek(){
         return queue[queue.length - 1];
     };
